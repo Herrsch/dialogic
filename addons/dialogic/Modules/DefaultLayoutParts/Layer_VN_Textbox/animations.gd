@@ -90,5 +90,4 @@ func _on_textbox_new_text() -> void:
 
 func _on_animation_interrupted() -> void:
 	if is_playing():
-		stop()
 		play(&'RESET')
